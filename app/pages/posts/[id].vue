@@ -152,4 +152,4 @@ useSeoMeta({
   description: () => post.value?.excerpt || post.value?.content_raw?.substring(0, 160) || 'Читайте пост у нашому блозі',
   ogDescription: () => post.value?.excerpt || post.value?.content_raw?.substring(0, 160)
 })
-</script>g
+</script>
